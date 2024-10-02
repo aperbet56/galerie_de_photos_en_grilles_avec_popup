@@ -103,3 +103,24 @@ body {
 .grid__img:hover {
     transform: scale(1.2);
 }
+
+/**** Responsive design Mobile ****/
+
+@media screen and (max-width: 768px) {
+    #nature--1,
+    #nature--2,
+    #nature--3,
+    #nature--4,
+    #nature--5,
+    #nature--6,
+    #nature--7,
+    #nature--8,
+    #nature--9,
+    #nature--10,
+    #nature--11,
+    #nature--12,
+    #nature--13 {
+       grid-column: span 3;
+       grid-row: span 1;
+    }
+}
