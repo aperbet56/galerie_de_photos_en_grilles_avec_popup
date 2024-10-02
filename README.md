@@ -6,7 +6,7 @@ Création d'une galerie d'images organisée en grille contenant une popup permet
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/galerie_de_photos_en_grilles_avec_popup/
 
 ## Projet développé avec
 
