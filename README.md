@@ -2,7 +2,7 @@
 
 ## Le challenge
 
-Création d'une galerie d'images organisée en grille contenant une popup permettant l'affichage de l'image sélectionnée. Pour fermer la popup, il suffit de cliquer sur le fond d'écran (background)
+Création d'une galerie d'images organisée en grille contenant une popup permettant l'affichage de l'image sélectionnée. Pour fermer la popup, il suffit de cliquer sur le fond d'écran (background). Bouton "J'aime" (coeur) qui se remplit au survol de la souris.
 
 ## Démonstration
 
