@@ -135,6 +135,10 @@ body {
     transition: opacity 1s ease-in-out;
 }
 
+.btn__heart:hover {
+    cursor: pointer;
+}
+
 .btn__heart:hover > .btn__heart--empty {
     opacity: 0;
 }
