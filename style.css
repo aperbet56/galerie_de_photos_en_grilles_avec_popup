@@ -70,6 +70,7 @@ body {
 }
 
 .grid__item {
+    position: relative;
     overflow: hidden;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -102,6 +103,44 @@ body {
 
 .grid__img:hover {
     transform: scale(1.2);
+}
+
+.btn__heart {
+    position: absolute;
+    bottom: 7px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
+    width: 26px;
+}
+
+.btn__heart--empty {
+    position: relative;
+    font-size: 27px;
+    transition: opacity 1s ease-in-out;
+    color: #f2f2f2;
+}
+
+.btn__heart--animated {
+    position: absolute;
+    font-size: 27px;
+    opacity: 0;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #ff0000;
+    transition: opacity 1s ease-in-out;
+}
+
+.btn__heart:hover > .btn__heart--empty {
+    opacity: 0;
+}
+
+.btn__heart:hover > .btn__heart--animated {
+    opacity: 1;
 }
 
 /**** Responsive design Mobile ****/
